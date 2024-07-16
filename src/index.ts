@@ -1,6 +1,6 @@
 import { adminBot, userBot } from "./api/telegraf";
 import env from "./config/env";
-import app from "./server";
+import app from "./s-config";
 
 userBot
   .launch()
